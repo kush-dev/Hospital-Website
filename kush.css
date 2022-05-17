@@ -1,0 +1,105 @@
+
+#click{
+    display: none;
+}
+
+
+.click-me{
+    display: block;
+    width: 210px;
+    height: 50px;
+    background: greenyellow;
+    border: 1px solid #26a65b;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.click-me:hover{
+    background: #219150;
+}
+.content{
+    opacity: 0;
+    visibility: hidden;
+    /* width: 400px;
+    height: 350px; */
+    background: burlywood;
+    border-radius: 4px;
+    transition: .3s ease-in;
+    box-shadow:0 2px 12px 0 rgba(0,0,0,.4) ;
+
+}
+#click:checked ~ .content{
+    opacity: 1;
+    visibility: visible;
+
+}
+.header{
+    height: 68px;
+    background: green;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+}
+.fa times{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content > p2{
+    padding-top: 29px;
+    font-size: 19px;
+    color: #1a1a1a;
+    text-align: center;
+}
+.line{
+    bottom: 60px;
+    width: 400px;
+    height: 1px;
+    background: silver;
+}
+.close-btn{
+    margin-right: -286px;
+    margin-top: 10px;
+    bottom: 12px;
+    right: 55px;
+    border: 1px solid #27ae60;
+    border-radius: 3px;
+    color: #27ae60;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.close-btn:hover{
+    background: #27ae60;
+    color: white;
+    transition: .5s;
+}
+p3{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.download-btn{
+    padding: 5px 4px;
+    width: 45px;
+    border: 1px solid #27ae60;
+    border-radius: 3px;
+    color: #27ae60;
+    padding: 8px 10px;
+    cursor: pointer;
+   
+}
+
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
